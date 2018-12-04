@@ -16,5 +16,9 @@ class RiverTest < MiniTest::Test
     assert_equal([], @river.get_fish_array)
   end
 
+  def test_fish_count
+    assert_equal(0, @river.fish_count)
+  end
+
 
 end

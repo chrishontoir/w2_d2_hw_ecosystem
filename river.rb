@@ -12,4 +12,8 @@ class River
   def get_fish_array
     return @fish_array
   end
+
+  def fish_count
+    return @fish_array.length
+  end
 end
