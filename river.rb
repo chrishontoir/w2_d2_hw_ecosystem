@@ -24,4 +24,5 @@ class River
   def remove_fish_from_river(fish_to_remove)
     @fish_array.delete(fish_to_remove)
   end
+  
 end

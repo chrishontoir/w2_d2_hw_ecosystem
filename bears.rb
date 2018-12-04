@@ -30,5 +30,8 @@ class Bears
     @stomach_array.delete(content)
   end
 
+  def bear_roar
+    return "Rawr!"
+  end
 
 end

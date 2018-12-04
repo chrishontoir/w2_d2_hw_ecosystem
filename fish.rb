@@ -8,5 +8,4 @@ class Fish
     return @fish_type
   end
 
-
 end

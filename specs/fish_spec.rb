@@ -11,6 +11,5 @@ class FishTest < MiniTest::Test
   def test_return_fish_type
     assert_equal("Salmon", @fish.get_fish_type)
   end
-
-
+  
 end
