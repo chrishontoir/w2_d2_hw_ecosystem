@@ -18,5 +18,17 @@ class Bears
     return @stomach_array
   end
 
+  def stomach_count
+      return @stomach_array.length
+  end
+
+  def add_content_to_stomach(content)
+    @stomach_array.push(content)
+  end
+
+  def remove_content_from_stomach(content)
+    @stomach_array.delete(content)
+  end
+
 
 end
