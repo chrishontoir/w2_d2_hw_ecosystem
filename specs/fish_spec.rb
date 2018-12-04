@@ -5,9 +5,7 @@ require_relative('../fish')
 class FishTest < MiniTest::Test
 
   def setup
-    @salmon = Fish.new("Salmon")
-    @tuna = Fish.new("Tuna")
-    @mackerel = Fish.new("Mackerel")
+    @fish = Fish.new("Salmon")
   end
 
   def test_return_fish_type

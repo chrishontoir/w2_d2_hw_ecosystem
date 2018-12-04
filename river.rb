@@ -16,4 +16,12 @@ class River
   def fish_count
     return @fish_array.length
   end
+
+  def add_fish_to_river(new_fish)
+    @fish_array.push(new_fish)
+  end
+
+  def remove_fish_from_river(fish_to_remove)
+    @fish_array.delete(fish_to_remove)
+  end
 end
